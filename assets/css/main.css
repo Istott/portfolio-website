@@ -694,7 +694,7 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		.image.main {
+		.image.main, .image.resume {
 			display: block;
 			margin: 2.5rem 0;
 			width: 100%;
@@ -702,10 +702,14 @@ input, select, textarea {
 
 			.image.main img {
 				width: 100%;
+			}
+
+			.image.resume img {
+				width: 100%;
 				transition: all .2s ease-in-out;
 			}
 
-			.image.main img:hover {
+			.image.resume img:hover {
 				transform: scale(1.1);
 			}
 
